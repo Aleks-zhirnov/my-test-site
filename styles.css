@@ -1,0 +1,21 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+header {
+    background-image: url('../assets/images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.card-title {
+    color: #007bff;
+}
+
+footer a:hover {
+    color: #ffc107;
+}
