@@ -1,21 +1,63 @@
+/* Общие стили */
+
 body {
     font-family: 'Roboto', sans-serif;
-}
-
-.navbar-brand {
+  }
+  
+  .navbar-brand {
     font-weight: bold;
-}
-
-header {
-    background-image: url('../assets/images/banner.jpg');
+    font-size: 1.5rem;
+  }
+  
+  .jumbotron {
+    background-image: url('../images/header_background.jpg');
     background-size: cover;
     background-position: center;
-}
-
-.card-title {
-    color: #007bff;
-}
-
-footer a:hover {
-    color: #ffc107;
-}
+    padding: 150px 0;
+  }
+  
+  .jumbotron .display-4 {
+    font-weight: bold;
+  }
+  
+  .card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .testimonial {
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #dddddd;
+  }
+  
+  .map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  
+  .map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  
+  /* Мобильные стили */
+  @media (max-width: 767.98px) {
+    .navbar-brand {
+      font-size: 1.25rem;
+    }
+  
+    .jumbotron {
+      padding: 100px 0;
+    }
+  
+    .jumbotron .display-4 {
+      font-size: 2rem;
+    }
+  }
+  
